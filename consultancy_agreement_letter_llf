@@ -1,0 +1,1322 @@
+<style type="text/css">*{box-sizing:border-box;}
+
+  body{
+    margin:0;
+    background:#e9e9e9;
+    font-family:Arial,sans-serif;
+    font-size:14px;
+    line-height:1.15;
+    color:#000;
+  }
+
+  .page{
+    /* max-width:816px;
+    margin:24px auto;*/
+    background:#fff;
+    padding:96px 90px;
+    box-shadow:0 0 4px rgba(0,0,0,0.2);
+  }
+
+  p{
+    margin:0 0 10pt;
+    text-align:left;
+  }
+
+  /* Numbered clause paragraphs: hanging indent, number left-aligned,
+     text starts in its own column, gap between clauses */
+  p.clause{
+    display:flex;
+    margin:0 0 20pt;
+  }
+  .clause-num{
+    flex:0 0 46px;
+    padding-right:10px;
+  }
+  .clause-text{
+    flex:1 1 auto;
+  }
+  p.clause-sub{
+    margin-left:20px;
+  }
+  p.clause-sub .clause-num{
+    flex-basis:30px;
+  }
+
+  strong{ font-weight:bold; }
+  u{ text-decoration:underline; }
+  mark{ background:#ffff00; padding:0; }
+
+  ol, ul{
+    margin:0 0 10pt;
+    padding-left:36px;
+  }
+  li{ margin-bottom:4pt; }
+  li > p{ margin:0 0 4pt; }
+  ol[type="a"]{ list-style-type:lower-alpha; }
+  ol.sub-list{ margin:0 0 20pt 56px; padding-left:20px; }
+  ol[type="1"]{ list-style-type:decimal; }
+
+  .smallcaps{ font-variant:small-caps; }
+
+  hr{
+    border:none;
+    border-top:1px solid #000;
+    margin:12pt 0;
+  }
+
+  @media print{
+    body{ background:#fff; }
+    .page{ box-shadow:none; margin:0; padding:1in; max-width:none; }
+  }
+
+  @media (max-width:640px){
+    .page{ padding:32px 20px; }
+  }
+</style>
+<div class="page">
+<p style="text-align: center;"><strong>CONSULTANCY AGREEMENT</strong></p>
+
+<p>This <strong>Consultancy Agreement</strong> <strong>(&ldquo;Agreement&rdquo;)</strong> is entered into on this {{eff_ten_doj}} <strong>(&ldquo;Effective Date&rdquo;)</strong></p>
+
+<p><strong>BY AND BETWEEN</strong></p>
+
+<p><strong>Learning Links Foundation</strong>, a not-for-profit Organization, registered under the Indian Organizations Acts, 1882 and having its registered office at 1st Floor, Plot No.2, OCF Pocket, Sector C, Nelson Mandela Road, Vasant Kunj, New Delhi &ndash; 110070 (Adjacent to Police Station, Vasant Kunj), India, represented by its Vice President - Human Resource, Ms. Divya Babbar, (hereafter referred to as &ldquo;Organization&rdquo; which expression shall unless repugnant to the context or meaning thereof include its permitted successors, legal heirs, and assigns).</p>
+
+<p><strong>AND</strong></p>
+
+<p>Mr./Ms. {{can_name}}, PAN No. {{pan}}, son/daughter of {{father_name}}, aged about {{age}} years, residing at {{address}} (hereinafter referred to as the &ldquo;<strong>Consultant</strong>&rdquo;, which expression shall, unless repugnant to the context or meaning thereof, include his/her permitted successors, legal heirs, and assigns).</p>
+
+<p>The Organization and the Consultant are individually referred to as a <strong>&ldquo;Party&rdquo;</strong> and collectively as the <strong>&ldquo;Parties&rdquo;</strong>.</p>
+
+<p><strong>WHEREAS</strong> the Organization is a not-for-profit entity working with a vision to foster purpose and progress through lifelong learning. With strong presence across all states in India, its headquarters is located in New Delhi. All projects of the Organization aim at enhancing the education, learning, skills development and livelihood development.</p>
+
+<p><strong>AND WHEREAS</strong> the Consultant has approached the Organization and represented that he/she has a relevant experience, qualification, competencies and skills to provide consultancy services to the Organization for its projects.</p>
+
+<p><strong>WHEREAS,</strong> after due deliberations and discussions, the Organization is willing to engage the services of the Consultant subject to the terms and conditions of this Agreement mutually agreed and signed by the Parties.</p>
+
+<p>In view of the above, the Parties are desirous of entering into this Agreement to record the terms and conditions relating to the services being offered by the Consultant to the Organization:</p>
+
+<p><strong>1. APPOINTMENT AND NATURE OF ENGAGEMENT</strong></p>
+
+<p class="clause"><span class="clause-num">1.1</span><span class="clause-text">The Organization hereby engages the Consultant and the Consultant hereby accepts such engagement and agrees to render services in accordance with the terms and conditions contained in this Agreement.</span></p>
+
+<p class="clause"><span class="clause-num">1.2</span><span class="clause-text">It is agreed that the engagement under this Agreement is on a principal-to-principal consultancy basis, and nothing contained herein shall be construed to create any relationship of employer and employee, partnership, joint venture or agency between the Organization and the Consultant.</span></p>
+
+<p class="clause"><span class="clause-num">1.3</span><span class="clause-text">The Consultant shall not be deemed to be an employee, director, officer in default or key managerial personnel of the Organization, and shall not be entitled to any employment benefits, statutory or otherwise.</span></p>
+
+<div style="page-break-after: always"><span style="display: none;">&nbsp;</span></div>
+
+<p class="clause"><span class="clause-num">1.4</span><span class="clause-text">The Consultant shall not have any authority to bind the Organization in any manner whatsoever, including entering into contracts, commitments or obligations, except to the extent expressly authorised in writing by the board of the Organization.</span></p>
+
+<p class="clause"><span class="clause-num">1.5</span><span class="clause-text">The Consultant shall be rendering Services at the Office of the Organization located at <strong> {{location}} or such other addresses communicated by the Organization from time to time,</strong> depending on the nature and requirements of the Services<strong>.</strong> However, for the efficient performance of the services, or based on the Organization&rsquo;s needs, requirements, or exigencies, the Organization reserves the right to reassign the services of the Consultant to any other assignment, project, or location of the Organization, on the terms and conditions as set out herein and the Consultant shall render the services accordingly.</span></p>
+
+<p><strong>2. TERM AND TERMINATION:</strong></p>
+
+<p class="clause"><span class="clause-num">2.1</span><span class="clause-text">The term of this Agreement shall be for a period of {{total_tenure}} / commencing from &laquo; {{ten_doj}} &raquo; until &laquo; {{end_date}} &raquo; (&ldquo;Term&rdquo;). The Agreement may be renewed for further period(s) of time with the mutual consent of the Parties in writing unless terminated earlier in accordance with the terms set out herein.</span></p>
+
+<p class="clause"><span class="clause-num">2.2</span><span class="clause-text">Either Party may terminate this Agreement by giving 30 days&#39; prior written notice or by making payment in lieu of the unserved portion of the notice period. Where the Consultant fails to serve the required notice period and does not make payment in lieu thereof, the Organization shall be entitled to recover an amount equivalent to the Consultancy Fee for the unserved portion of the notice period by set-off against any amounts payable to the Consultant or through any other lawful means.</span></p>
+
+<p class="clause"><span class="clause-num">2.3</span><span class="clause-text">Notwithstanding the above, the Organization shall have the right to terminate this Agreement with immediate effect in the event of:</span></p>
+
+<ol class="sub-list" type="a">
+	<li>
+	<p>material breach of this Agreement by the Consultant which remains uncured within fifteen (15) days of notice;</p>
+	</li>
+	<li>
+	<p>misconduct, fraud, negligence or breach of confidentiality by the Consultant;</p>
+	</li>
+	<li>
+	<p>any conflict of interest or engagement in competing activities without prior approval;</p>
+	</li>
+</ol>
+
+<p class="clause"><span class="clause-num">2.4</span><span class="clause-text">Upon termination, the Consultant shall be entitled to payment of Consultancy Fees accrued up to the date of termination. The Consultant shall immediately cease representing the Organization and comply with the obligations relating to return of confidential information, materials and Organization assets in accordance with this Agreement.</span></p>
+
+<p class="clause"><span class="clause-num">2.5</span><span class="clause-text">Upon termination or expiry of this Agreement, the Consultant shall immediately return all assets, equipment, identity cards, laptops, mobile devices, documents, records, access cards and any other property belonging to the Organization in his/her possession. In the event any such asset is not returned or is returned in a damaged condition (other than normal wear and tear), the Organization shall be entitled to recover the reasonable replacement or repair cost from any amounts payable to the Consultant or through any other lawful means.</span></p>
+
+<p><strong>3. CONSULTANCY FEE</strong></p>
+
+<div style="page-break-after: always"><span style="display: none;">&nbsp;</span></div>
+
+<p class="clause"><span class="clause-num">3.1</span><span class="clause-text">In consideration of the satisfactory Services rendered by the Consultant under this Agreement, the Organization shall pay to the Consultant the Consultancy Fee as contained in Annexure A.</span></p>
+
+<p class="clause"><span class="clause-num">3.2</span><span class="clause-text">This amount shall be inclusive of all applicable taxes.</span></p>
+
+<p class="clause"><span class="clause-num">3.3</span><span class="clause-text">The Organization reserves the right to review the Consultancy Fee payable to the Consultant based on the quality of services rendered and compliance with the terms and conditions of this Agreement. Save as expressly provided herein, no other fees or benefits shall be payable by the Organization to the Consultant.</span></p>
+
+<p class="clause"><span class="clause-num">3.4</span><span class="clause-text">The Consultancy Fees shall be paid on the basis of the invoice raised by the Consultant, along with supporting documents for the Services rendered by the Consultant in accordance with this Agreement and the fee shall be subject to TDS in accordance with the provisions of The Income-tax Act, 2025, at the applicable rates.</span></p>
+
+<p class="clause"><span class="clause-num">3.5</span><span class="clause-text">The Consultant shall raise the invoice on the 1st (first) day of each calendar month immediately succeeding the month in which the Services were rendered and submit the same to the Reporting Manager for verification and approval. The Reporting Manager shall verify and approve the invoice within a reasonable time. Payment of the Consultancy Fee shall be processed only against a duly approved invoice. Where the 1st (first) day falls on a public holiday or a non-working day, the invoice shall be submitted on the last working day of the month in which the Services were rendered.</span></p>
+
+<p class="clause"><span class="clause-num">3.6</span><span class="clause-text">The Organization shall endeavour to process payment within fifteen (15) days of receipt of a valid invoice, subject to verification and acceptance.</span></p>
+
+<p><strong>4. NON-SOLICITATION</strong></p>
+
+<p class="clause"><span class="clause-num">4.1</span><span class="clause-text">The Consultant shall not, either during the Term of this Agreement and for a period of <strong>One year,</strong> from the date of termination of this Agreement or expiry thereof, directly or indirectly, solicit any of the Employees / Consultant(s) / Representatives / Clients / Customers / Donors / Suppliers / Vendors of the Organization to terminate or alter their relationship with the Organization or to work elsewhere.</span></p>
+
+<p class="clause"><span class="clause-num">4.2</span><span class="clause-text">In the event of violation of this clause, the Consultant shall be liable to pay the Organization an amount as determined by the Organization or equal to Six (6) months&rsquo; Consultancy Fees paid by the Organization to the Consultant for the services or equivalent of any loss, damages, or other expenses suffered by the Organization, as the case may be, whichever is higher.</span></p>
+
+<p><strong>5. CONFIDENTIALITY</strong></p>
+
+<p class="clause"><span class="clause-num">5.1</span><span class="clause-text">During the performance of Services, Consultant may acquire database, information, project information, technical or otherwise, which is confidential or proprietary to the Organization or it&rsquo;s subsidiaries or affiliates, it&rsquo;s clients, vendors, donors, subcontractors or any other person or Organization having any kind of association or relationship with the Organization and/or it&rsquo;s affiliates or subsidiaries (together &ldquo;Confidential Information&rdquo;).</span></p>
+
+<p class="clause"><span class="clause-num">5.2</span><span class="clause-text">The obligations under this <strong>Clause 5</strong> shall not apply to information which is</span></p>
+
+<p class="clause clause-sub"><span class="clause-num">(i)</span><span class="clause-text">already lawfully known to the Consultant prior to disclosure by the Organization,</span></p>
+
+<div style="page-break-after: always"><span style="display: none;">&nbsp;</span></div>
+
+<p class="clause clause-sub"><span class="clause-num">(ii)</span><span class="clause-text">lawfully obtained from a third party without breach of any obligation of confidentiality,</span></p>
+
+<p class="clause clause-sub"><span class="clause-num">(iii)</span><span class="clause-text">available in the public domain without breach of this Agreement, or</span></p>
+
+<p class="clause clause-sub"><span class="clause-num">(iv)</span><span class="clause-text">disclosed with prior written approval of the Organization or</span></p>
+
+<p class="clause clause-sub"><span class="clause-num">(v)</span><span class="clause-text">that is required to be disclosed in order to comply with applicable law or regulation or with any governmental or court process;</span></p>
+
+<p style="padding-left: 50px;">provided, however, that in such event, Confidential Information shall be disclosed only to the extent required; and provided further that, in each instance:</p>
+
+<p class="clause clause-sub"><span class="clause-num">(vi)</span><span class="clause-text">Consultant shall, immediately upon receipt of a request for Confidential Information or becoming aware that such request may be forthcoming, notify the Organization and</span></p>
+
+<p class="clause clause-sub"><span class="clause-num">(vii)</span><span class="clause-text">Consultant shall assist the Organization in obtaining a protective order or other appropriate determination or agreement providing for continued confidential treatment of the Confidential Information.</span></p>
+
+<p class="clause"><span class="clause-num">5.3</span><span class="clause-text">Consultant acknowledges that, other than in the performance of the specified and defined services, Consultant shall not use or disclose to any person or entity any Confidential Information of the Organization (whether in written, oral, electronic or other form) obtained during the course of Consultancy Services or through access to the Organization&rsquo;s systems, records, or premises if granted, is solely for facilitating the performance of the services and shall be subject to the Organization&rsquo;s policies and guidelines. Any unauthorized use of such systems or information is strictly prohibited.</span></p>
+
+<p class="clause"><span class="clause-num">5.4</span><span class="clause-text">Consultant shall at all times during the Term of this Agreement keep and maintain strict confidentiality of such Confidential Information and data that may come to Consultant&rsquo;s possession or knowledge by virtue of this engagement, use such information only as may be required in the normal course of Consultant&rsquo;s Services and shall not disclose or divulge any such information or data, without prior written consent of the Organization.</span></p>
+
+<p class="clause"><span class="clause-num">5.5</span><span class="clause-text">Consultant shall at all times, whether during or after the termination of this Agreement, act with utmost fidelity and shall not disclose or divulge any Confidential Information to third parties or make use of such Confidential Information for Consultant&rsquo;s own benefit or otherwise. Consultant shall not reproduce, store in a retrieval system or transmit in any form or by any means - electronic, mechanical, photocopying, recording, scanning or otherwise - any proprietary/copyrighted material or any information (confidential or otherwise), for Consultant&rsquo;s own benefit or for the benefit of any third party, either during the term of this Agreement or termination or expiry thereafter.</span></p>
+
+<p class="clause"><span class="clause-num">5.6</span><span class="clause-text">Upon expiry or termination of this Agreement, Consultant shall return, surrender and/or destroy, upon request of the Organization, all such Confidential Information including without limitation, data, information, files, books, magazines, reports, documents, manuals, audio and video tapes, electronic records or any such documents, analysis, reports or any other documents, prepared by Consultant with the use of the Confidential Information and any other knowledge databases that came to Consultant or Consultant were entrusted with in the course of Consultant&rsquo;s Term and shall not retain any copy thereof in any form whatsoever.</span></p>
+
+<div style="page-break-after: always"><span style="display: none;">&nbsp;</span></div>
+
+<p class="clause"><span class="clause-num">5.7</span><span class="clause-text">Consultant may be required to execute such other or further agreements as the Organization or its affiliates or customers may require in this regard, from time to time to comply with this Clause 5.</span></p>
+
+<p class="clause"><span class="clause-num">5.8</span><span class="clause-text">Provisions of this Clause 5 shall continue to be valid and binding on Consultant notwithstanding cessation of Consultant&rsquo;s Term with the Organization in accordance with this Agreement.</span></p>
+
+<p class="clause"><span class="clause-num">5.9</span><span class="clause-text">Consultant shall not disclose to any public papers, journals, pamphlets or leaflets, or cause to be disclosed at any time, any information or documents, official or otherwise relating to the Organization or it&rsquo;s subsidiaries or affiliates, customers, sub-contractors, donors or any other person or Organization having any kind of association or relationship with the Organization and/or its subsidiaries or affiliates, except with prior written approval of the Organization.</span></p>
+
+<p><strong>6. CONFLICT OF INTEREST:</strong></p>
+
+<p class="clause"><span class="clause-num">6.1</span><span class="clause-text">With regard to Consultant&rsquo;s skillset and the Services to be rendered under this Agreement, and Consultant&rsquo;s access to Confidential Information of the Organization and its clients, Consultant shall not, during the Term, undertake any engagement that creates a material conflict of interest with such Services or involves the use or potential use of the Organization&rsquo;s Confidential Information.</span></p>
+
+<p class="clause"><span class="clause-num">6.2</span><span class="clause-text">Consultant shall disclose any such potential conflict to the Organization, and the parties shall take reasonable steps to address the same including providing approval for the same.</span></p>
+
+<p class="clause"><span class="clause-num">6.3</span><span class="clause-text">This clause shall be construed in accordance with applicable law and limited to the extent necessary to protect the legitimate interests of the Organization and its Confidential Information.</span></p>
+
+<p><strong>7. INTELLECTUAL PROPERTY OWNERSHIP:</strong></p>
+
+<p><strong>7.1 Work Product:</strong></p>
+
+<p class="clause"><span class="clause-num">i)</span><span class="clause-text">&ldquo;Work Product&rdquo; means all internal documents, reports, materials, tools, processes, data, designs, instructional materials, or any other work product created, conceived, developed, or reduced to practice by Consultant in the course of performing services under this Agreement.</span></p>
+
+<p class="clause"><span class="clause-num">ii)</span><span class="clause-text">The Organization is, and shall remain, the sole and exclusive owner of all rights, title, and interest in and to the Work Product, including all intellectual property rights therein, created, made, conceived, or authored by Consultant during the course of Consultant&rsquo;s engagement with the Organization.</span></p>
+
+<p class="clause"><span class="clause-num">iii)</span><span class="clause-text">Consultant hereby irrevocably assign to the Organization, without any additional consideration, all right, title, and interest in and to such Work Product, including all intellectual property rights therein. Such assignment shall operate automatically under this Agreement without the need for any further act or documentation.</span></p>
+
+<p class="clause"><span class="clause-num">iv)</span><span class="clause-text">Consultant may use the Work Product solely for the purpose of performing Consultant&rsquo;s obligations under this Agreement.</span></p>
+
+<p class="clause"><span class="clause-num">v)</span><span class="clause-text">The Organization shall be free to make, use, modify, adapt, translate, distribute, offer for sale, and otherwise exploit the Work Product without restriction, subject to applicable law.</span></p>
+
+<div style="page-break-after: always"><span style="display: none;">&nbsp;</span></div>
+
+<p class="clause"><span class="clause-num">vi)</span><span class="clause-text">Consultant shall deliver all Work Product to the Organization upon the earlier of</span></p>
+
+<p class="clause clause-sub"><span class="clause-num">(i)</span><span class="clause-text">termination or expiry of this Agreement,</span></p>
+
+<p class="clause clause-sub"><span class="clause-num">(ii)</span><span class="clause-text">completion of services, or</span></p>
+
+<p class="clause clause-sub"><span class="clause-num">(iii)</span><span class="clause-text">upon the Organization&rsquo;s written request.</span></p>
+
+<p><strong>7.2 Inventions:</strong></p>
+
+<p class="clause"><span class="clause-num">i)</span><span class="clause-text">Consultant shall promptly disclose to the Organization any inventions, discoveries, or developments conceived or made in connection with this Agreement. All such inventions shall be the exclusive property of the Organization, and Consultant hereby assigns all rights, title, and interest therein, including all patent rights worldwide, to the Organization.</span></p>
+
+<p class="clause"><span class="clause-num">ii)</span><span class="clause-text">Consultant agrees to execute all documents and do all acts as may be reasonably required by the Organization, at the Organization&rsquo;s expense, to obtain and enforce intellectual property protection for such inventions in any jurisdiction.</span></p>
+
+<p><strong>7.3 Works of Authorship:</strong></p>
+
+<p class="clause"><span class="clause-num">i)</span><span class="clause-text">Consultant shall promptly disclose to the Organization any works of authorship created in connection with this Agreement. All such works shall belong exclusively to the Organization, and Consultant hereby assign in perpetuity all worldwide copyright and related rights therein to the Organization, subject to receipt of payments specified under this Agreement.</span></p>
+
+<p class="clause"><span class="clause-num">ii)</span><span class="clause-text">To the extent permitted by law, Consultant waives all moral rights in such works, including rights of attribution and integrity. Consultant shall assist the Organization, at its expense, in securing and enforcing such rights.</span></p>
+
+<p><strong>7.4 Trademarks and Domain Names:</strong></p>
+
+<p class="clause"><span class="clause-num">i)</span><span class="clause-text">Any trademarks, trade names, logos, or domain names created or developed in connection with services under this Agreement shall belong exclusively to the Organization. Consultant agrees to execute all necessary documents and take all reasonable actions required to assign and perfect such rights in favor of the Organization.</span></p>
+
+<p><strong>7.5 Pre-Existing Intellectual Property:</strong></p>
+
+<p class="clause"><span class="clause-num">i)</span><span class="clause-text">&ldquo;Pre-Existing Intellectual Property&rdquo; means any intellectual property owned or controlled by Consultant or any third party prior to commencement of assignment under this Agreement.</span></p>
+
+<p class="clause"><span class="clause-num">ii)</span><span class="clause-text">Consultant shall not use any Pre-Existing Intellectual Property in connection with assignment unless Consultant has the right to do so and such use does not infringe any third-party rights.</span></p>
+
+<div style="page-break-after: always"><span style="display: none;">&nbsp;</span></div>
+
+<p class="clause"><span class="clause-num">iii)</span><span class="clause-text">If any Pre-Existing Intellectual Property is used in connection with this assignment, Consultant hereby grants to the Organization a non-exclusive, royalty-free, worldwide, perpetual, and irrevocable license to use, reproduce, modify, adapt, distribute, and exploit such intellectual property for the Organization&rsquo;s business purposes.</span></p>
+
+<p><strong>7.6 Indemnification:</strong></p>
+
+<p class="clause"><span class="clause-num">i)</span><span class="clause-text">Consultant shall indemnify and hold harmless the Organization from and against any claims, damages, liabilities, or losses arising from any infringement or alleged infringement of third-party intellectual property rights arising out of the Work Product or materials provided by Consultant. Consultant shall promptly notify the Organization upon becoming aware of any such claim.</span></p>
+
+<p><strong>8. LIMITATION OF LIABILITY</strong></p>
+
+<p class="clause"><span class="clause-num">8.1</span><span class="clause-text">Notwithstanding anything contained herein to the contrary, the aggregate liability of Organization/LLF arising out of or in connection with this Agreement, whether in contract, tort (including negligence), or otherwise, shall in no event exceed the total Fees paid by LLF to Consultant under this Agreement.</span></p>
+
+<p class="clause"><span class="clause-num">8.2</span><span class="clause-text">In no event shall LLF be liable for any indirect, incidental, consequential, special, or punitive damages, including but not limited to loss of profits, loss of opportunity, loss of data, or business interruption, arising out of or in connection with this Agreement, even if advised of the possibility of such damages.</span></p>
+
+<p class="clause"><span class="clause-num">8.3</span><span class="clause-text">Consultant shall, however, remain fully liable without any limitation for any breach of confidentiality obligations, intellectual property infringement, fraud, willful misconduct, or violation of applicable laws, and shall indemnify and keep LLF indemnified against all such claims, losses, damages, liabilities.</span></p>
+
+<p><strong>9. PRINCIPAL-TO-PRINCIPAL RELATIONSHIP:</strong></p>
+
+<p class="clause"><span class="clause-num">9.1</span><span class="clause-text">The engagement contemplated under this Agreement is purely on a Consultancy basis and Consultant shall perform the Services on behalf of the Organization in an independent capacity as an independent Consultant and at no point in time shall be construed as constituting a regular, fixed-term, or part-time or contractual employment with LLF. Consultant shall expressly acknowledge and agree that rendering services pursuant to this Agreement, Consultant shall not be eligible to claim any benefits, privileges, perquisites, or facilities that are extended to the employees of LLF.</span></p>
+
+<p class="clause"><span class="clause-num">9.2</span><span class="clause-text">It is further expressly agreed and understood that this Agreement is executed on a principal-to-principal basis, and nothing contained herein shall be deemed or interpreted to create any relationship of employer-employee, partnership, joint venture, agency, or master-servant between LLF and Consultant. Consultant shall act in an independent capacity and shall have no authority whatsoever to bind LLF, represent LLF, or incur any obligation or liability on behalf of LLF in any manner whatsoever.</span></p>
+
+<p><strong>10. DATA PROTECTION</strong></p>
+
+<p class="clause"><span class="clause-num">10.1</span><span class="clause-text">Compliance</span></p>
+
+<p>The Consultant shall comply with all applicable data protection laws and regulations concerning personal data received from LLF &ldquo;Trust&rdquo; or any stakeholder during or after delivery of services.</p>
+
+<div style="page-break-after: always"><span style="display: none;">&nbsp;</span></div>
+
+<p class="clause"><span class="clause-num">10.2</span><span class="clause-text">Data Security</span></p>
+
+<p>The Consultant shall implement appropriate safeguards to protect personal data and confidential information against unauthorized access, disclosure, loss, or misuse.</p>
+
+<p><strong>11. GENERAL PROVISIONS:</strong></p>
+
+<p class="clause"><span class="clause-num">11.1</span><span class="clause-text">This Agreement is the entire understanding between the Parties with respect to the performance of Services contemplated herein. It supersedes all prior understandings between the Parties.</span></p>
+
+<p class="clause"><span class="clause-num">11.2</span><span class="clause-text">During the Term of this Agreement and during the performance of the Services, if Consultant, at any time, render Consultant incompetent to perform the services or commit any breach of the terms of this Agreement or any conditions which are included as a part of Consultant&rsquo;s Agreement of any of the stipulations herein contained or of Code of Business Conduct of the Organization or any Organization Policy, the Organization shall without prejudice to any of its rights under the terms herein contained or as may be available to it, be entitled to terminate this Agreement forthwith for material breach of this Agreement.</span></p>
+
+<p class="clause"><span class="clause-num">11.3</span><span class="clause-text">Consultant shall keep the Organization informed of any change in Consultant&rsquo;s particulars including address, or any other personal particulars relevant to Consultant&rsquo;s Term.</span></p>
+
+<p class="clause"><span class="clause-num">11.4</span><span class="clause-text">Consultant represents and warrant to the Organization that Consultant is under no contractual or other restriction or obligation which are inconsistent with the execution of this Agreement, or which will interfere with the performance of the services.</span></p>
+
+<p class="clause"><span class="clause-num">11.5</span><span class="clause-text">Any insurance, mediclaim, group insurance, welfare coverage, or similar benefit that may be extended by the Organization from time to time shall be purely discretionary in nature and shall not be construed as an employee benefit, statutory benefit, or evidence of an employer&ndash;employee relationship between Consultant and the Organization.</span></p>
+
+<p class="clause"><span class="clause-num">11.6</span><span class="clause-text">The Organization will deduct applicable taxes and other statutory dues as may be applicable from time to time from the Fees payable to Consultant. Consultant will be personally responsible for Consultant&rsquo;s tax liabilities and other dues. The Organization shall also be entitled to deduct any other sums as may be recoverable from Consultant from time to time.</span></p>
+
+<p class="clause"><span class="clause-num">11.7</span><span class="clause-text">If not curtailed in between or terminated earlier, this Agreement shall automatically come to an end on expiry, for which no separate termination letter or notice will be required to be given to the Consultant.</span></p>
+
+<p class="clause"><span class="clause-num">11.8</span><span class="clause-text">In case of any dispute, the jurisdiction to entertain and try such dispute shall vest exclusively in a competent Court having jurisdiction for New Delhi.</span></p>
+
+<p class="clause"><span class="clause-num">11.9</span><span class="clause-text">Neither Party shall be responsible for delays or failures in performance resulting from acts of god, acts of civil or military authority, fire, flood, strikes, war, epidemics, shortage of power, or other acts or causes reasonably beyond the control of such Party. The Party experiencing the force majeure event agrees to give the other Party notice promptly following the occurrence of a force majeure event, and to use diligent efforts to re-commence performance as promptly as commercially practicable.</span></p>
+
+<div style="page-break-after: always"><span style="display: none;">&nbsp;</span></div>
+
+<p class="clause"><span class="clause-num">11.10</span><span class="clause-text">If any provision of this Agreement is held to be unenforceable or invalid, the other provisions shall continue in full force and effect.</span></p>
+
+<p class="clause"><span class="clause-num">11.11</span><span class="clause-text">The provisions of this Agreement that by their nature should survive termination, including but not limited to the Confidentiality, indemnification, non-solicitation shall survive termination of this Agreement.</span></p>
+
+<p class="clause"><span class="clause-num">11.12</span><span class="clause-text">The Consultant shall, at all times during the term of this Agreement, comply with and adhere to the policies, procedures, guidelines, standards, and codes of conduct of the Organization as may be communicated, amended, or updated from time to time and which are relevant to the performance of the Services under this Agreement.</span></p>
+
+<p class="clause"><span class="clause-num">11.13</span><span class="clause-text">The Consultant acknowledges having received, reviewed, or been provided access to such policies and agrees to conduct themselves in a manner consistent with the values, ethical standards, professional expectations, and legal obligations prescribed by the Organization.</span></p>
+
+<p class="clause"><span class="clause-num">11.14</span><span class="clause-text">Any breach of the Organization&#39;s policies, code of conduct, or applicable laws and regulations shall constitute a material breach of this Agreement and may result in termination of the Agreement with immediate effect, without prejudice to any other rights or remedies available to the Organization.</span></p>
+
+<p class="clause"><span class="clause-num">11.15</span><span class="clause-text">The Consultant shall comply with the provisions of the Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013 (&quot;POSH Act&quot;), and with the Organization&#39;s Prevention of Sexual Harassment (POSH) Policy, as amended from time to time.</span></p>
+
+<p class="clause"><span class="clause-num">11.16</span><span class="clause-text">Further, the Consultant shall refrain from engaging in any conduct that may constitute sexual harassment and shall maintain a professional, respectful, and safe work environment for all employees, beneficiaries, partners, volunteers, consultants, and stakeholders of the Organization.</span></p>
+
+<p class="clause"><span class="clause-num">11.17</span><span class="clause-text">The Consultant shall cooperate fully with any inquiry, investigation, or proceedings relating to an alleged violation of the POSH Policy. Any violation shall be deemed a material breach of this Agreement and appropriate action shall be initiated as per the applicable laws and policies of the Organization.</span></p>
+
+<p class="clause"><span class="clause-num">11.18</span><span class="clause-text">Given that the Organization works with children, adolescents, youth, and vulnerable individuals, the Consultant shall strictly comply with the Organization&#39;s Child Protection and Safeguarding Policy and all applicable child protection laws and regulations.</span></p>
+
+<p class="clause"><span class="clause-num">11.19</span><span class="clause-text">The Consultant shall:</span></p>
+
+<p class="clause"><span class="clause-num">a)</span><span class="clause-text">Treat all children and vulnerable individuals with dignity, respect, and care;</span></p>
+
+<p class="clause"><span class="clause-num">b)</span><span class="clause-text">Refrain from any conduct that may constitute abuse, exploitation, neglect, harassment, discrimination, inappropriate behaviour, or any act that may place a child or vulnerable individual at risk of harm;</span></p>
+
+<p class="clause"><span class="clause-num">c)</span><span class="clause-text">Immediately report any actual, suspected, or potential safeguarding concern, incident, violation, or risk in accordance with the Organization&#39;s reporting procedures;</span></p>
+
+<div style="page-break-after: always"><span style="display: none;">&nbsp;</span></div>
+
+<p class="clause"><span class="clause-num">d)</span><span class="clause-text">Participate in any safeguarding orientation, declaration, training, or compliance process reasonably required by the Organization.</span></p>
+
+<p class="clause"><span class="clause-num">11.20</span><span class="clause-text">Any violation of the Child Protection and Safeguarding Policy or applicable laws, if any, shall be treated as a material breach of this Agreement and may result in immediate termination and such further action as may be required under applicable law.</span></p>
+
+<p class="clause"><span class="clause-num">11.21</span><span class="clause-text">The Consultant acknowledges that, in the course of performing the Services, they may be required to visit and work from various locations, including but not limited to offices, schools, colleges, training centres, partner locations, government offices, community centres, and other premises designated by the Organization or its stakeholders.</span></p>
+
+<p class="clause"><span class="clause-num">11.22</span><span class="clause-text">The Consultant shall comply with all reasonable operational, administrative, security, safety, visitor-management, and access-control requirements applicable at such locations, including but not limited to:</span></p>
+
+<p class="clause"><span class="clause-num">a)</span><span class="clause-text">Signing visitor entry and exit registers;</span></p>
+
+<p class="clause"><span class="clause-num">b)</span><span class="clause-text">Recording attendance in visitor logs or security systems;</span></p>
+
+<p class="clause"><span class="clause-num">c)</span><span class="clause-text">Producing identification documents where required;</span></p>
+
+<p class="clause"><span class="clause-num">d)</span><span class="clause-text">Complying with security screening, access protocols, and safety instructions;</span></p>
+
+<p class="clause"><span class="clause-num">e)</span><span class="clause-text">Following location-specific rules, procedures, and directions issued by authorized personnel.</span></p>
+
+<p class="clause"><span class="clause-num">11.23</span><span class="clause-text">The Consultant acknowledges and agrees that compliance with such visitor-management or access-control procedures is solely for security, safety, regulatory, operational, or administrative purposes and shall not be construed as creating an employer-employee relationship, evidencing employment, or establishing attendance, working hours, supervision, or control inconsistent with the Consultant&#39;s independent contractor status under this Agreement.</span></p>
+
+<p class="clause"><span class="clause-num">11.24</span><span class="clause-text">Failure to comply with applicable worksite requirements may result in denial of access to the premises and may be treated as a breach of the Consultant&#39;s obligations under this Agreement.</span></p>
+
+<p class="clause"><span class="clause-num">11.25</span><span class="clause-text">The Consultant shall execute such declarations, undertakings, background verification forms, confidentiality acknowledgements, safeguarding declarations, and compliance certifications as may be reasonably required by the Organization from time to time.</span></p>
+
+<div style="page-break-after: always"><span style="display: none;">&nbsp;</span></div>
+
+<p>This Agreement may be amended or modified only by a written instrument executed by both Parties hereto. No course of conduct or course of dealing shall modify, amend, or otherwise affect the provisions hereof.</p>
+
+<p>It is clearly understood that the present arrangement is a contract for services and is not to be construed as a contract of employment or agency and the relationship between the parties is on principal-to-principal basis.</p>
+
+<p>Consultant is requested to signify the acceptance of this Agreement by signing and returning to the Organization, a duplicate of this Agreement.</p>
+
+<p>Sincerely,</p>
+&nbsp;
+
+<p style="margin-right:5%;"><b style="font-weight:normal;"><img alt="sign" src="https://d1k0baiicaeidx.cloudfront.net/llf/FLS0000027/image_sig_divya.png" style="height: 50px;" /></b></p>
+&nbsp;
+
+<p><strong>Authorized Signatory<br />
+Divya Babbar<br />
+Vice President (Human Resource Management)</strong></p>
+<br />
+<br />
+<br />
+&nbsp;
+<p style="text-align: center;"><strong><u>SCOPE OF SERVICES</u></strong></p>
+
+<p>The Consultant is being engaged in the capacity of <strong>{{project_designation}}, {{department}}</strong> for the purpose of providing Consultancy Services to the Organization.</p>
+
+<p>The Organization may, from time to time, revise, modify, expand, or update the Scope of Services applicable to the Consultant based on requirements, funding requirements, operational needs.</p>
+{{#if matched}}{{#if is_rp}}
+
+<p>Resource Person (RP)</p>
+
+<p>The Consultant shall:</p>
+
+<ul>
+	<li>
+	<p>Facilitate learning, training, educational, or community-development interventions as assigned.</p>
+	</li>
+	<li>
+	<p>Deliver project activities, awareness sessions, workshops, and capacity-building initiatives.</p>
+	</li>
+	<li>
+	<p>Support implementation of project objectives and learning outcomes.</p>
+	</li>
+	<li>
+	<p>Prepare and submit activity reports, documentation, and related records.</p>
+	</li>
+	<li>
+	<p>Coordinate with stakeholders for effective implementation of project activities.</p>
+	</li>
+</ul>
+{{/if}}{{#if is_sesd}}
+
+<p>Senior Executive &ndash; Social Development (SESD)</p>
+
+<p>The Consultant shall:</p>
+
+<ul>
+	<li>
+	<p>Provide professional support in planning, implementation, monitoring, and evaluation of social development projects.</p>
+	</li>
+	<li>
+	<p>Coordinate with project teams, government stakeholders, institutions, and community representatives.</p>
+	</li>
+	<li>
+	<p>Review project progress and support achievement of project objectives.</p>
+	</li>
+	<li>
+	<p>Prepare reports, analyses, presentations, and project documentation.</p>
+	</li>
+	<li>
+	<p>Support capacity building, field monitoring, and project improvement initiatives.</p>
+	</li>
+</ul>
+{{/if}}{{#if is_cco}}
+
+<p>Cluster Coordinator (CCO)</p>
+
+<p>The Consultant shall:</p>
+
+<ul>
+	<li>
+	<p>Coordinate project implementation within assigned clusters, locations, or operational areas.</p>
+	</li>
+	<li>
+	<p>Facilitate communication among project teams, schools, institutions, and stakeholders.</p>
+	</li>
+	<li>
+	<p>Monitor progress of project activities and support timely achievement of deliverables.</p>
+	</li>
+	<li>
+	<p>Consolidate reports, data, and project updates.</p>
+	</li>
+	<li>
+	<p>Provide implementation support and guidance to field teams.</p>
+	</li>
+</ul>
+{{/if}}{{#if is_esd}}
+
+<p>Executive &ndash; Social Development (ESD)</p>
+
+<p>The Consultant shall:</p>
+
+<ul>
+	<li>
+	<p>Support implementation of assigned social development interventions.</p>
+	</li>
+	<li>
+	<p>Conduct community engagement, beneficiary outreach, and project activities.</p>
+	</li>
+	<li>
+	<p>Assist in data collection, reporting, documentation, and monitoring activities.</p>
+	</li>
+	<li>
+	<p>Coordinate with stakeholders to facilitate smooth project execution.</p>
+	</li>
+	<li>
+	<p>Support achievement of project deliverables and outcomes.</p>
+	</li>
+</ul>
+{{/if}}{{#if is_sc}}
+
+<p>Sports Coach (SC)</p>
+
+<p>The Consultant shall:</p>
+
+<ul>
+	<li>
+	<p>Design and deliver sports, fitness, and physical education interventions.</p>
+	</li>
+	<li>
+	<p>Conduct coaching, mentoring, and skill-development sessions.</p>
+	</li>
+	<li>
+	<p>Support assessment of participant progress and performance.</p>
+	</li>
+	<li>
+	<p>Maintain relevant records and reports relating to activities conducted.</p>
+	</li>
+	<li>
+	<p>Promote safe, inclusive, and positive participation in sports activities.</p>
+	</li>
+</ul>
+{{/if}}{{#if is_pf}}
+
+<p>Parenting Facilitator</p>
+
+<p>The Consultant shall:</p>
+
+<ul>
+	<li>
+	<p>Conduct parenting awareness, counselling, guidance, and capacity-building sessions.</p>
+	</li>
+	<li>
+	<p>Facilitate engagement with parents, caregivers, and community stakeholders.</p>
+	</li>
+	<li>
+	<p>Support implementation of family and community engagement initiatives.</p>
+	</li>
+	<li>
+	<p>Maintain records and reports relating to services provided.</p>
+	</li>
+	<li>
+	<p>Contribute towards achievement of project objectives concerning parental engagement.</p>
+	</li>
+</ul>
+{{/if}}{{#if is_oa}}
+
+<p>Office Assistant (OA)</p>
+
+<p>The Consultant shall:</p>
+
+<ul>
+	<li>
+	<p>Provide administrative, documentation, record-management, and operational support services.</p>
+	</li>
+	<li>
+	<p>Assist in maintaining project records, correspondence, and reports.</p>
+	</li>
+	<li>
+	<p>Support coordination of meetings, logistics, and administrative activities.</p>
+	</li>
+	<li>
+	<p>Assist in data management and document control activities.</p>
+	</li>
+	<li>
+	<p>Provide general office support as may be required for project operations.</p>
+	</li>
+</ul>
+{{/if}}{{#if is_sf}}
+
+<p>Sports Facilitator (SF)</p>
+
+<p>The Consultant shall:</p>
+
+<ul>
+	<li>
+	<p>Facilitate sports and physical activity programs for project beneficiaries.</p>
+	</li>
+	<li>
+	<p>Support organization and implementation of sports-related interventions.</p>
+	</li>
+	<li>
+	<p>Assist in participant engagement, activity coordination, and reporting.</p>
+	</li>
+	<li>
+	<p>Support achievement of project objectives relating to sports and wellness initiatives.</p>
+	</li>
+</ul>
+{{/if}}{{#if is_spf}}
+
+<p>Shadow Parenting Facilitator (SPF)</p>
+
+<p>The Consultant shall:</p>
+
+<ul>
+	<li>
+	<p>Assist Parenting Facilitators in planning and delivery of parenting and community engagement activities.</p>
+	</li>
+	<li>
+	<p>Support coordination with beneficiaries and stakeholders.</p>
+	</li>
+	<li>
+	<p>Maintain activity records and documentation.</p>
+	</li>
+	<li>
+	<p>Provide implementation support for assigned project interventions.</p>
+	</li>
+</ul>
+{{/if}}{{#if is_admin_exec}}
+
+<p>Admin Executive</p>
+
+<p>The Consultant shall:</p>
+
+<ul>
+	<li>
+	<p>Provide administrative and operational support services to the Organization.</p>
+	</li>
+	<li>
+	<p>Assist in procurement coordination, documentation, vendor coordination, logistics, and office administration.</p>
+	</li>
+	<li>
+	<p>Support maintenance of organizational records and operational processes.</p>
+	</li>
+	<li>
+	<p>Prepare reports, correspondence, and administrative documentation.</p>
+	</li>
+	<li>
+	<p>Coordinate with internal and external stakeholders for smooth project and office operations.</p>
+	</li>
+</ul>
+{{/if}}{{#if is_academic_head}}
+
+<p>Academic Head</p>
+
+<p>The Consultant shall:</p>
+
+<ul>
+	<li>
+	<p>Provide academic leadership and guidance for assigned projects and interventions.</p>
+	</li>
+	<li>
+	<p>Develop, review, and strengthen academic content, curriculum, and learning resources.</p>
+	</li>
+	<li>
+	<p>Monitor quality of implementation and recommend academic improvements.</p>
+	</li>
+	<li>
+	<p>Mentor and support academic teams, trainers, and resource persons.</p>
+	</li>
+	<li>
+	<p>Prepare academic reports, reviews, and other documentation as required.</p>
+	</li>
+</ul>
+{{/if}}{{#if is_grant_manager}}
+
+<p>Grant Manager</p>
+
+<p>The Consultant shall:</p>
+
+<ul>
+	<li>
+	<p>Support planning, implementation, and monitoring of grant-funded projects.</p>
+	</li>
+	<li>
+	<p>Coordinate with donors, project teams, and stakeholders for grant compliance.</p>
+	</li>
+	<li>
+	<p>Track project milestones, budgets, and reporting requirements.</p>
+	</li>
+	<li>
+	<p>Prepare grant reports and supporting documentation.</p>
+	</li>
+	<li>
+	<p>Ensure timely submission of project deliverables.</p>
+	</li>
+</ul>
+{{/if}}{{#if is_project_director}}
+
+<p>Project Director</p>
+
+<p>The Consultant shall:</p>
+
+<ul>
+	<li>
+	<p>Provide strategic leadership for assigned projects.</p>
+	</li>
+	<li>
+	<p>Oversee project planning, implementation, monitoring, and closure.</p>
+	</li>
+	<li>
+	<p>Coordinate with internal teams, donors, partners, and government stakeholders.</p>
+	</li>
+	<li>
+	<p>Ensure achievement of project objectives, timelines, and quality standards.</p>
+	</li>
+	<li>
+	<p>Review project performance and recommend corrective actions where required.</p>
+	</li>
+</ul>
+{{/if}}{{#if is_bm}}
+
+<p>Block Manager (BM)</p>
+
+<p>The Consultant shall:</p>
+
+<ul>
+	<li>
+	<p>Manage project implementation within assigned blocks.</p>
+	</li>
+	<li>
+	<p>Coordinate with field teams and local stakeholders.</p>
+	</li>
+	<li>
+	<p>Monitor implementation progress and operational activities.</p>
+	</li>
+	<li>
+	<p>Consolidate reports and maintain project records.</p>
+	</li>
+	<li>
+	<p>Support timely achievement of project deliverables.</p>
+	</li>
+</ul>
+{{/if}}{{#if is_rtl_coordinator}}
+
+<p>RTL Coordinator</p>
+
+<p>The Consultant shall:</p>
+
+<ul>
+	<li>
+	<p>Coordinate implementation of assigned project activities.</p>
+	</li>
+	<li>
+	<p>Facilitate communication among field teams and stakeholders.</p>
+	</li>
+	<li>
+	<p>Monitor project progress and operational requirements.</p>
+	</li>
+	<li>
+	<p>Maintain project records and documentation.</p>
+	</li>
+	<li>
+	<p>Support achievement of assigned project objectives.</p>
+	</li>
+</ul>
+{{/if}}{{#if is_srp}}
+
+<p>Senior Resource Person (SRP)</p>
+
+<p>The Consultant shall:</p>
+
+<ul>
+	<li>
+	<p>Provide technical and subject matter expertise for assigned projects.</p>
+	</li>
+	<li>
+	<p>Conduct training, mentoring, and capacity-building programs.</p>
+	</li>
+	<li>
+	<p>Develop and review learning materials and technical resources.</p>
+	</li>
+	<li>
+	<p>Support quality assurance and project implementation.</p>
+	</li>
+	<li>
+	<p>Prepare technical reports and recommendations.</p>
+	</li>
+</ul>
+{{/if}}{{#if is_project_coordinator}}
+
+<p>Project Coordinator</p>
+
+<p>The Consultant shall:</p>
+
+<ul>
+	<li>
+	<p>Coordinate day-to-day project implementation activities.</p>
+	</li>
+	<li>
+	<p>Liaise with project teams, beneficiaries, and stakeholders.</p>
+	</li>
+	<li>
+	<p>Maintain project documentation and progress reports.</p>
+	</li>
+	<li>
+	<p>Monitor timelines and deliverables.</p>
+	</li>
+	<li>
+	<p>Support smooth execution of project activities.</p>
+	</li>
+</ul>
+{{/if}}{{#if is_at}}
+
+<p>Academic Trainer (AT)</p>
+
+<p>The Consultant shall:</p>
+
+<ul>
+	<li>
+	<p>Deliver training sessions and academic interventions.</p>
+	</li>
+	<li>
+	<p>Develop lesson plans and training materials where required.</p>
+	</li>
+	<li>
+	<p>Assess participant learning outcomes and provide feedback.</p>
+	</li>
+	<li>
+	<p>Maintain training records and reports.</p>
+	</li>
+	<li>
+	<p>Support achievement of project learning objectives.</p>
+	</li>
+</ul>
+{{/if}}{{#if is_block_coordinator}}
+
+<p>Block Coordinator</p>
+
+<p>The Consultant shall:</p>
+
+<ul>
+	<li>
+	<p>Coordinate implementation of project activities within assigned blocks.</p>
+	</li>
+	<li>
+	<p>Support field teams in execution of project interventions.</p>
+	</li>
+	<li>
+	<p>Monitor project progress and documentation.</p>
+	</li>
+	<li>
+	<p>Coordinate with schools, institutions, and stakeholders.</p>
+	</li>
+	<li>
+	<p>Assist in timely completion of project deliverables.</p>
+	</li>
+</ul>
+{{/if}}{{#if is_mis_head}}
+
+<p>MIS Head</p>
+
+<p>The Consultant shall:</p>
+
+<ul>
+	<li>
+	<p>Lead management of project MIS and reporting systems.</p>
+	</li>
+	<li>
+	<p>Ensure accuracy, integrity, and timely availability of project data.</p>
+	</li>
+	<li>
+	<p>Develop dashboards, reports, and analytical summaries.</p>
+	</li>
+	<li>
+	<p>Support data quality assurance and compliance.</p>
+	</li>
+	<li>
+	<p>Coordinate with project teams for effective information management.</p>
+	</li>
+</ul>
+{{/if}}{{#if is_sustainability_head}}
+
+<p>Sustainability Head</p>
+
+<p>The Consultant shall:</p>
+
+<ul>
+	<li>
+	<p>Develop and support sustainability initiatives for assigned projects.</p>
+	</li>
+	<li>
+	<p>Coordinate with stakeholders to strengthen long-term project outcomes.</p>
+	</li>
+	<li>
+	<p>Monitor sustainability indicators and progress.</p>
+	</li>
+	<li>
+	<p>Prepare sustainability reports and recommendations.</p>
+	</li>
+	<li>
+	<p>Promote sustainable practices across project operations.</p>
+	</li>
+</ul>
+{{/if}}{{#if is_finance_manager}}
+
+<p>Finance Manager</p>
+
+<p>The Consultant shall:</p>
+
+<ul>
+	<li>
+	<p>Manage financial planning, budgeting, and monitoring of assigned projects.</p>
+	</li>
+	<li>
+	<p>Ensure compliance with financial policies and donor requirements.</p>
+	</li>
+	<li>
+	<p>Review financial reports and expenditure statements.</p>
+	</li>
+	<li>
+	<p>Coordinate with internal and external stakeholders on financial matters.</p>
+	</li>
+	<li>
+	<p>Support financial audits and documentation.</p>
+	</li>
+</ul>
+{{/if}}{{#if is_accounts_executive}}
+
+<p>Accounts Executive</p>
+
+<p>The Consultant shall:</p>
+
+<ul>
+	<li>
+	<p>Maintain accounting records and financial documentation.</p>
+	</li>
+	<li>
+	<p>Process invoices, payments, and reconciliations.</p>
+	</li>
+	<li>
+	<p>Support preparation of financial reports.</p>
+	</li>
+	<li>
+	<p>Ensure compliance with accounting procedures.</p>
+	</li>
+	<li>
+	<p>Coordinate with internal teams for financial documentation.</p>
+	</li>
+</ul>
+{{/if}}{{#if is_sm}}
+
+<p>State Manager (SM)</p>
+
+<p>The Consultant shall:</p>
+
+<ul>
+	<li>
+	<p>Lead implementation of projects within the assigned State.</p>
+	</li>
+	<li>
+	<p>Coordinate with project teams, government departments, and stakeholders.</p>
+	</li>
+	<li>
+	<p>Monitor project performance and operational efficiency.</p>
+	</li>
+	<li>
+	<p>Review project reports and implementation progress.</p>
+	</li>
+	<li>
+	<p>Ensure achievement of project objectives.</p>
+	</li>
+</ul>
+{{/if}}{{#if is_admin_head}}
+
+<p>Admin Head</p>
+
+<p>The Consultant shall:</p>
+
+<ul>
+	<li>
+	<p>Oversee administrative operations relating to assigned projects.</p>
+	</li>
+	<li>
+	<p>Ensure effective office administration and facility management.</p>
+	</li>
+	<li>
+	<p>Coordinate procurement, logistics, and vendor management activities.</p>
+	</li>
+	<li>
+	<p>Review administrative processes and documentation.</p>
+	</li>
+	<li>
+	<p>Support operational efficiency and compliance.</p>
+	</li>
+</ul>
+{{/if}}{{#if is_mis_coordinator}}
+
+<p>MIS Coordinator</p>
+
+<p>The Consultant shall:</p>
+
+<ul>
+	<li>
+	<p>Maintain project data and MIS records.</p>
+	</li>
+	<li>
+	<p>Compile, verify, and submit project reports.</p>
+	</li>
+	<li>
+	<p>Coordinate with project teams for timely data collection.</p>
+	</li>
+	<li>
+	<p>Ensure data accuracy and completeness.</p>
+	</li>
+	<li>
+	<p>Support reporting and monitoring activities.</p>
+	</li>
+</ul>
+{{/if}}{{#if is_hr_manager}}
+
+<p>HR Manager</p>
+
+<p>The Consultant shall:</p>
+
+<ul>
+	<li>
+	<p>Provide HR support for assigned projects.</p>
+	</li>
+	<li>
+	<p>Coordinate recruitment, onboarding, and consultant engagement activities.</p>
+	</li>
+	<li>
+	<p>Support performance management and HR documentation.</p>
+	</li>
+	<li>
+	<p>Ensure compliance with organizational policies and procedures.</p>
+	</li>
+	<li>
+	<p>Prepare HR-related reports and records.</p>
+	</li>
+</ul>
+{{/if}}{{#if is_pm}}
+
+<p>Program Manager (PM)</p>
+
+<p>The Consultant shall:</p>
+
+<ul>
+	<li>
+	<p>Plan, implement, and monitor assigned programs.</p>
+	</li>
+	<li>
+	<p>Coordinate with project teams and stakeholders.</p>
+	</li>
+	<li>
+	<p>Track program progress and deliverables.</p>
+	</li>
+	<li>
+	<p>Prepare program reports and documentation.</p>
+	</li>
+	<li>
+	<p>Support achievement of program objectives.</p>
+	</li>
+</ul>
+{{/if}}{{#if is_it_support}}
+
+<p>IT Support</p>
+
+<p>The Consultant shall:</p>
+
+<ul>
+	<li>
+	<p>Provide technical support for hardware, software, and IT systems.</p>
+	</li>
+	<li>
+	<p>Resolve user queries and technical issues.</p>
+	</li>
+	<li>
+	<p>Maintain IT assets and system documentation.</p>
+	</li>
+	<li>
+	<p>Support implementation of technology solutions.</p>
+	</li>
+	<li>
+	<p>Ensure compliance with IT policies and security requirements.</p>
+	</li>
+</ul>
+{{/if}}{{#if is_coe_manager}}
+
+<p>COE Manager</p>
+
+<p>The Consultant shall:</p>
+
+<ul>
+	<li>
+	<p>Manage activities relating to the assigned Centre of Excellence.</p>
+	</li>
+	<li>
+	<p>Coordinate with internal teams and external stakeholders.</p>
+	</li>
+	<li>
+	<p>Monitor implementation of assigned initiatives.</p>
+	</li>
+	<li>
+	<p>Prepare reports and project documentation.</p>
+	</li>
+	<li>
+	<p>Support continuous improvement initiatives.</p>
+	</li>
+</ul>
+{{/if}}{{#if is_admin}}
+
+<p>Admin</p>
+
+<p>The Consultant shall:</p>
+
+<ul>
+	<li>
+	<p>Provide administrative support for project operations.</p>
+	</li>
+	<li>
+	<p>Maintain records, files, and documentation.</p>
+	</li>
+	<li>
+	<p>Coordinate logistics and office administration.</p>
+	</li>
+	<li>
+	<p>Assist in procurement and vendor coordination.</p>
+	</li>
+	<li>
+	<p>Support smooth day-to-day operations.</p>
+	</li>
+</ul>
+{{/if}}{{#if is_mis_executive}}
+
+<p>MIS Executive</p>
+
+<p>The Consultant shall:</p>
+
+<ul>
+	<li>
+	<p>Enter, validate, and maintain project data.</p>
+	</li>
+	<li>
+	<p>Prepare periodic MIS reports.</p>
+	</li>
+	<li>
+	<p>Support data analysis and documentation.</p>
+	</li>
+	<li>
+	<p>Coordinate with project teams for timely reporting.</p>
+	</li>
+	<li>
+	<p>Ensure data accuracy and completeness.</p>
+	</li>
+</ul>
+{{/if}}{{#if is_finance_head}}
+
+<p>Finance Head</p>
+
+<p>The Consultant shall:</p>
+
+<ul>
+	<li>
+	<p>Provide financial leadership for assigned projects.</p>
+	</li>
+	<li>
+	<p>Review budgets, financial controls, and compliance.</p>
+	</li>
+	<li>
+	<p>Monitor financial performance and reporting.</p>
+	</li>
+	<li>
+	<p>Coordinate audits and financial reviews.</p>
+	</li>
+	<li>
+	<p>Support strategic financial planning.</p>
+	</li>
+</ul>
+{{/if}}{{#if is_head_sd_north}}
+
+<p>Head &ndash; Social Development (North)</p>
+
+<p>The Consultant shall:</p>
+
+<ul>
+	<li>
+	<p>Provide strategic guidance for social development initiatives in the assigned region.</p>
+	</li>
+	<li>
+	<p>Coordinate with regional teams and stakeholders.</p>
+	</li>
+	<li>
+	<p>Monitor implementation and achievement of project outcomes.</p>
+	</li>
+	<li>
+	<p>Review project performance and provide technical support.</p>
+	</li>
+	<li>
+	<p>Prepare strategic reports and recommendations.</p>
+	</li>
+</ul>
+{{/if}}{{#if is_trainee}}
+
+<p>Trainee</p>
+
+<p>The Consultant shall:</p>
+
+<ul>
+	<li>
+	<p>Participate in assigned training, orientation, and capacity-building activities.</p>
+	</li>
+	<li>
+	<p>Assist in implementation of project and operational activities under appropriate guidance.</p>
+	</li>
+	<li>
+	<p>Support preparation of reports, documentation, and project records.</p>
+	</li>
+	<li>
+	<p>Develop knowledge and skills necessary for effective performance of assigned consultancy services.</p>
+	</li>
+	<li>
+	<p>Perform other assignment-related activities as communicated by the Organization from time to time.</p>
+	</li>
+</ul>
+{{/if}}{{else}}
+
+<ol type="1">
+	<li>
+	<p>You shall provide professional services to LLF, as may be communicated by the Trust to You from time to time during the term of the Agreement.</p>
+	</li>
+	<li>
+	<p>You may be required to provide Services at different locations and You may be required to travel in connection with the requirements of the Trust and reasonable expenses incurred in this regard and other allowances accordingly may be reimbursed based on providing proof of such expenditure and approval of the Trust.</p>
+	</li>
+	<li>
+	<p>SCOPE OF SERVICES TO BE RENDERED:</p>
+	</li>
+</ol>
+
+<ul>
+	<li>
+	<p>Provide professional services and support to LLF projects as required.</p>
+	</li>
+	<li>
+	<p>Deliver assignments and outputs communicated by the Trust from time to time.</p>
+	</li>
+	<li>
+	<p>Prepare reports, documentation, or updates as requested.</p>
+	</li>
+	<li>
+	<p>Coordinate with LLF teams, stakeholders, and partners for effective delivery.</p>
+	</li>
+	<li>
+	<p>Conduct research, analysis, or fieldwork relevant to project needs.</p>
+	</li>
+	<li>
+	<p>Share knowledge, training, or advisory inputs when requested.</p>
+	</li>
+	<li>
+	<p>Ensure compliance with LLF&rsquo;s policies, confidentiality obligations, and ethical standards.</p>
+	</li>
+	<li>
+	<p>Undertake any other project‑related tasks communicated by the Trust from time to time.</p>
+	</li>
+</ul>
+{{/if}}
+
+<div style="page-break-after: always"><span style="display: none;">&nbsp;</span></div>
+
+<p><strong>TIMELINES AND DELIVERABLES</strong>:</p>
+
+<p>The Consultant shall perform the Services and complete the assigned deliverables in accordance with the timelines, milestones, project requirements, and other instructions communicated by the Organization from time to time.</p>
+
+<p>The Consultant shall exercise due diligence and professional skill in performing the Services and shall make reasonable efforts to ensure timely completion of all assigned deliverables.</p>
+
+<p style="text-align: center; padding-top: 70px;"><strong>REVIEW OF SERVICES AND DELIVERABLES</strong></p>
+
+<p>The Organization shall have the right to periodically review and assess the quality, progress, and completion of the Services and deliverables provided by the Consultant to ensure compliance with the agreed requirements, standards, and project objectives. Where any deliverable or service is found to be incomplete, deficient, unsatisfactory, or not in accordance with the requirements communicated by the Organization, the Organization may require the Consultant to provide clarifications, modifications, corrections, or improvements within a reasonable period.</p>
+
+<p style="text-align: center;"><strong>Annexure A</strong></p>
+
+<p style="text-align: center;"><strong>CONSULTANCY SERVICE FEE PARTICULARS</strong></p>
+
+<p>The Organization shall pay the Consultant a Consultancy (professional) fee for the Services rendered under this Agreement, as set out below:</p>
+
+<p><strong>Consultant Fee :</strong> Rs. {{monthly_ctc}}</p>
+
+<p><strong>Payment Frequency :</strong> Monthly</p>
+
+<p>The Consultancy Fee shall be payable subject to:</p>
+
+<ul>
+	<li>
+	<p>The Consultant performance of the Services in accordance with the terms of this Agreement;</p>
+	</li>
+	<li>
+	<p>Submission of invoices and / or such supporting documents as may be required by the Organization from time to time; and</p>
+	</li>
+	<li>
+	<p>Verification and approval of the Services rendered by Consultant by the Authorized Representative of the Organization.</p>
+	</li>
+	<li>
+	<p>Travel Allowance, Mobile Allowance, and other allowances or reimbursements, if applicable, shall be paid in accordance with the agreed rates, prior approvals, and subject to submission of supporting documents where required by the Organization.</p>
+	</li>
+</ul>
+
+<p>Consultant shall submit invoices and supporting documents, where applicable, in the format and frequency as prescribed in the Agreement and agreed by the Parties.</p>
+
+<p>The Organization shall process payment of the Service Fee upon satisfactory completion of the Services and/or acceptance of the deliverables or Services rendered by Consultant under this Agreement.</p>
+
+<p>The Organization reserves the right to withhold, deduct, or defer payment, in whole or in part, in the event of non-performance, incomplete performance, unsatisfactory quality of Services, non-submission of required documents, or any breach of the terms of this Agreement.</p>
+
+<div style="page-break-after: always"><span style="display: none;">&nbsp;</span></div>
+
+<p>For the avoidance of doubt, payment of the Service Fee shall be subject to verification and approval of the Services rendered by Consultant and shall not become due merely by submission of an invoice.</p>
+
+<p style="text-align:center; font-weight:bold; margin:50px 0 22pt;">ACCEPTANCE</p>
+
+<p style="font-weight:bold; margin:0 0 20pt;">I accept the above-mentioned terms and conditions.</p>
+
+<p style="display:flex; align-items:baseline; font-weight:bold; margin:0 0 18pt;"><span style="flex:0 0 300px;">Name and Signature:</span><span style="flex:1 1 auto; border-bottom:1px solid #000; height:1em;">&nbsp;</span></p>
+
+<p style="display:flex; align-items:baseline; font-weight:bold; margin:0 0 18pt;"><span style="flex:0 0 300px;">Date of Commencement of Services:</span><span style="flex:1 1 auto; border-bottom:1px solid #000; height:1em;">&nbsp;</span></p>
+
+<p style="display:flex; align-items:baseline; font-weight:bold; margin:0 0 18pt;"><span style="flex:0 0 300px;">Place:</span><span style="flex:1 1 auto; border-bottom:1px solid #000; height:1em;">&nbsp;</span></p>
+
+<p style="display:flex; align-items:baseline; font-weight:bold; margin:0 0 18pt;"><span style="flex:0 0 300px;">Date:</span><span style="flex:1 1 auto; border-bottom:1px solid #000; height:1em;">&nbsp;</span></p>
+
+<p><strong>Documents to be submitted at the Time of Signing the Agreement</strong></p>
+
+<p>The Consultant shall submit the following documents:</p>
+
+<ol type="1">
+	<li>
+	<p>Two passport-size photographs;</p>
+	</li>
+	<li>
+	<p>Proof of identity and address:</p>
+
+	<ul>
+		<li>
+		<p>PAN Card;</p>
+		</li>
+		<li>
+		<p>Aadhaar Card;</p>
+		</li>
+		<li>
+		<p>PAN must be linked with Aadhaar. If not linked, applicable tax deductions shall apply.</p>
+		</li>
+	</ul>
+	</li>
+	<li>
+	<p>Highest educational qualification certificate;</p>
+	</li>
+	<li>
+	<p>Work experience documents;</p>
+	</li>
+	<li>
+	<p>Copy of any existing contract with another client (if applicable);</p>
+	</li>
+</ol>
+</div>
