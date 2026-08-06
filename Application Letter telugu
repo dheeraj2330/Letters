@@ -1,0 +1,423 @@
+<style type="text/css">@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Telugu:wght@500&display=swap");
+</style>
+<style type="text/css">* {
+    font-family: "Noto Serif Telugu", system-ui;
+
+  }
+</style>
+<div style="display:flex; margin-top:5%;">
+<p style="margin-top: 0pt; margin-bottom: 0pt;text-align: center;font-size: 10pt;margin-left:5%;"><img alt="img" src="https://assets-flexiele.abfrl.com/feabfrlmc/FLS0000100/37e5f49f-6911-4c70-b3b0-09d430de5287.png" style="height:130px;" /></p>
+
+<p style="font-family: SansSerif; margin-top:5%;margin-left:6%;font-weight:50;font-family: SansSerif;"><b>ADITYA BIRLA LIFESTYLE BRANDS LIMITED</b></p>
+</div>
+
+<p style="text-align:center;line-height: 1;font-weight: 10;font-family: SansSerif;"><b>APPLICATION FORM</b></p>
+
+<p style="text-align:center;line-height: 0.5;font-family: SansSerif;">(APPLICATION FOR EMPLOYMENT)</p>
+
+<p style="text-align:center;line-height:0.5;">ఉపాధి కోసం దరఖాస్తు ఫారమ్</p>
+
+<div style="display: flex;">
+<table style="width: 40%; font-size:9pt;border-collapse: collapse; margin-right:-7%;font-family: SansSerif;">
+	<tbody>
+		<tr style="line-height: 1.5;height: 25px;">
+			<td style="white-space:nowrap;">Token No. / ఉద్యోగి సంఖ్య</td>
+		</tr>
+		<tr style="line-height: 1.5;height: 25px;">
+			<td>DOJ/ చేరిన తేదీ</td>
+		</tr>
+		<tr style="line-height: 1.5;height: 25px;">
+			<td>Name/ పేరు</td>
+		</tr>
+		<tr style="line-height: 1.5;height: 25px;">
+			<td>DEPARTMENT / శాఖ</td>
+		</tr>
+		<tr style="line-height: 1.5;height: 25px;">
+			<td>Husband/Father&#39;s Name<br style="line-height: 0;" />
+			తండ్రి / భర్త పేరు</td>
+		</tr>
+		<tr style="line-height: 1.5;height: 25px;">
+			<td><strong>Department</strong><br style="line-height: 0;" />
+			శాఖ</td>
+		</tr>
+	</tbody>
+</table>
+
+<table style="width: 40%; font-size:9pt; margin-right:4%;font-family: SansSerif;border-collapse: collapse;">
+	<tbody>
+		<tr style="line-height: 1.5;height: 25px;">
+			<td style="border: 0.1px solid black;"><span style="margin-left: 2px;">{{empCode}}</span></td>
+		</tr>
+		<tr style="line-height: 1.5;height: 25px;">
+			<td style="border: 0.1px solid black;"><span style="margin-left: 2px;">{{doj}}</span></td>
+		</tr>
+		<tr style="line-height: 1.5;height: 25px;">
+			<td style="border: 0.1px solid black;"><span style="margin-left: 2px;">{{emp_name}}</span></td>
+		</tr>
+		<tr style="line-height: 1.5;height: 25px;">
+			<td style="border: 0.1px solid black;"><span style="margin-left: 2px;">{{department}}</span></td>
+		</tr>
+		<tr style="line-height: 1.5;height: 25px;">
+			<td style="border: 0.1px solid black;"><span style="margin-left: 2px;">{{father_spouse}}</span></td>
+		</tr>
+		<tr style="line-height: 1.5;height: 25px;">
+			<td style="border: 0.1px solid black;"><span style="margin-left: 2px;">{{department}}</span></td>
+		</tr>
+	</tbody>
+</table>
+
+<div style="flex-grow: 2;border: 1px solid black;width: 50px;height: 120px;margin-right:4%;"><img alt="img" src="{{prof_pic}}" style="width: 130px;height: 120px;" /></div>
+</div>
+
+<div style="display:flex;font-size:9pt;">
+<p style="margin-right:28%;">Address<br />
+Present &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ప్రస్తుత చిరునామా</p>
+
+<p><br />
+&nbsp;&nbsp;Permanent &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;శాశ్వత చిరునామా</p>
+</div>
+
+<table style="width: 100%; font-size: 8pt; font-family: SansSerif; border-collapse: collapse; border: 1px solid black; margin-top: -2%;">
+	<tbody>
+		<tr>
+			<td style="padding: 15px; border-right: 1px solid black; width: 50%; white-space: normal; word-wrap: break-word;">Present Address: {{cur_address}}</td>
+			<td style="padding: 15px; border-left: 1px solid black; width: 50%; white-space: normal; word-wrap: break-word;">{{perm_address}}</td>
+		</tr>
+	</tbody>
+</table>
+
+<table style="width: 100%; font-size: 8pt;font-family: SansSerif; border-collapse: collapse; border: 0.5px solid black;margin-top:2%;">
+	<tbody>
+		<tr style=" border: 0.5px solid black;">
+			<td style=" border: 0.5px solid black;padding: 3px;width: 25%;"><b>Mobile No.</b>/ మొబైల్ నెం</td>
+			<td style="width: 25%;padding: 3px;">{{mobile_number}}</td>
+			<td style=" border: 0.5px solid black;padding: 3px;width: 25%;"><b>Date of Birth</b>/పుట్టిన తేదీ</td>
+			<td style="width: 25%;padding: 3px;">{{dob}}</td>
+		</tr>
+		<tr style=" border: 0.5px solid black;">
+			<td style=" border: 0.5px solid black;padding: 3px;"><b>Place Of Birth</b>/ జన్మ స్థలం</td>
+			<td style="padding: 3px;">{{p_birth}}</td>
+			<td style=" border: 0.5px solid black;padding: 3px;"><b>Religion</b>/మతం</td>
+			<td style="padding: 3px;">{{religion}}</td>
+		</tr>
+		<tr style=" border: 0.5px solid black;">
+			<td style=" border: 0.5px solid black;padding: 3px;"><b>Aadhar No.</b>/ఆధార్ సంఖ్య</td>
+			<td style="padding: 3px;">{{adhaar}}</td>
+			<td style=" border: 0.5px solid black;padding: 3px;"><b>Age</b>/ వయస్సు</td>
+			<td style="padding: 3px;">{{age}}</td>
+		</tr>
+		<tr style=" border: 0.5px solid black;">
+			<td style=" border: 0.5px solid black;padding: 3px;"><b>Gender</b>/లింగం</td>
+			<td style="padding: 3px;">{{gender}}</td>
+			<td style=" border: 0.5px solid black;padding: 3px;"><b>Mother Tongue</b>/ మాతృ భాష</td>
+			<td style="padding: 3px;">&nbsp;</td>
+		</tr>
+		<tr style=" border: 0.5px solid black;">
+			<td style=" border: 0.5px solid black;padding: 3px;"><b>Marital Status</b>/ వైవాహిక స్థితి</td>
+			<td style="padding: 3px;">{{marital_status}}</td>
+			<td style=" border: 0.5px solid black;padding: 3px;"><b>BUS NO.</b>/ROUTE NO.</td>
+			<td style="padding: 3px;">{{route_no}}</td>
+		</tr>
+	</tbody>
+</table>
+
+<table style="width: 100%;font-family: SansSerif; border-collapse: collapse; border: 0.5px solid black;margin-top:2%;">
+	<tbody>
+		<tr style=" border: 0.5px solid black;">
+			<td style=" border: 0.5px solid black;padding: 3px;white-space:nowrap; font-size: 9pt;"><b>Family Details &nbsp; &nbsp; &nbsp; &nbsp;</b></td>
+			<td style=" border: 0.5px solid black;padding: 3px;font-size:8pt;">కుటుంబ వివరాలు</td>
+		</tr>
+		<tr style=" border: 0.5px solid black;text-align: center; font-size: 8pt;">
+			<td style=" border: 0.5px solid black;padding: 3px;width:5%">SI.NO.</td>
+			<td>Name</td>
+			<td style=" border: 0.5px solid black;padding: 3px;">Date of Birth</td>
+			<td>Relationship</td>
+			<td style=" border: 0.5px solid black;padding: 3px;">Residing</td>
+		</tr>
+		<tr style=" border: 0.5px solid black;text-align: center; font-size: 8pt;">
+			<td style=" border: 0.5px solid black;padding: 3px;">క్రమసంఖ్య</td>
+			<td>పేరు</td>
+			<td style=" border: 0.5px solid black;padding: 3px;">పుట్టిన తేదీ</td>
+			<td>సంబంధం</td>
+			<td style=" border: 0.5px solid black;padding: 3px;">నివాసం</td>
+		</tr>
+		{{#each family}}{{#if this.is_dependent}}
+		<tr style=" border: 0.5px solid black;text-align: center; font-size: 8pt;">
+			<td style=" border: 0.5px solid black;padding: 3px;">{{serial_no}}</td>
+			<td>{{this.full_name}}</td>
+			<td style=" border: 0.5px solid black;padding: 3px;">{{this.dob}}</td>
+			<td>{{this.relation}}</td>
+			<td style=" border: 0.5px solid black;padding: 3px;">{{this.address}}</td>
+		</tr>
+		{{/if}}{{/each}}
+	</tbody>
+</table>
+
+<table style="width: 100%;font-family: SansSerif; border-collapse: collapse; border: 0.5px solid black;margin-top:2%;">
+	<tbody>
+		<tr style=" border: 0.5px solid black;text-align: center; font-size: 8pt;">
+			<td rowspan="2" style=" border: 0.5px solid black;padding: 3px;width:15%;"><b>Nominee/నామినీ:</b></td>
+			<td style="width:40%;">Name</td>
+			<td style=" border: 0.5px solid black;padding: 3px;width:15%;">Date of Birth</td>
+			<td style=" border: 0.5px solid black;padding: 3px;width:30%;">Relationship</td>
+		</tr>
+		<tr style=" border: 0.5px solid black;text-align: center; font-size: 8pt;">
+			<td style=" border: 0.5px solid black;padding: 3px;">పేరు</td>
+			<td style=" border: 0.5px solid black;padding: 3px;">పుట్టిన తేదీ</td>
+			<td style=" border: 0.5px solid black;padding: 3px;">సంబంధం</td>
+		</tr>
+		{{#each nomine}}{{#if gratuity_flag}}
+		<tr style=" border: 0.5px solid black;text-align: center; font-size: 8pt;">
+			<td style=" border: 0.5px solid black;padding: 3px;">{{index}}</td>
+			<td style=" border: 0.5px solid black;padding: 3px;">{{this.name}}</td>
+			<td style=" border: 0.5px solid black;padding: 3px;">{{this.dob}}</td>
+			<td style=" border: 0.5px solid black;padding: 3px;">{{this.relation}}</td>
+		</tr>
+		{{/if}}{{/each}}
+	</tbody>
+</table>
+
+<table style="width: 100%; font-family: SansSerif; border-collapse: collapse; border: 0.5px solid black;margin-top:2%;">
+	<tbody>
+		<tr style=" border: 0.5px solid black;">
+			<td style=" border: 0.5px solid black;white-space:nowrap;font-size:9pt;"><b>Educational Qualification&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</b></td>
+			<td style=" border: 0.5px solid black;font-size:8pt;">విద్యాసంబంధమైన / అర్హత</td>
+		</tr>
+		<tr style=" border: 0.5px solid black;text-align: center;font-size: 8pt;">
+			<td style=" border: 0.5px solid black;padding: 3px;width:5%;">SI.NO.</td>
+			<td>Class / Degree</td>
+			<td style=" border: 0.5px solid black;padding: 3px;">Year</td>
+			<td>School / College</td>
+			<td style=" border: 0.5px solid black;padding: 3px;">Marks Obtained</td>
+		</tr>
+		<tr style=" border: 0.5px solid black;text-align: center;font-size: 8pt;">
+			<td style=" border: 0.5px solid black;padding: 3px;">క్రమసంఖ్య</td>
+			<td>తరగతి / డిగ్రీ</td>
+			<td style=" border: 0.5px solid black;padding: 3px;">సంవత్సరం</td>
+			<td>పాఠశాల / కళాశాల</td>
+			<td style=" border: 0.5px solid black;padding: 3px;">వచ్చిన మార్కులు</td>
+		</tr>
+		{{#each qualifications}}
+		<tr style=" border: 0.5px solid black;text-align: center;font-size: 8pt;">
+			<td style=" border: 0.5px solid black;padding: 3px;">{{index}}</td>
+			<td>{{this.degree}}</td>
+			<td style=" border: 0.5px solid black;padding: 3px;">{{this.qyear}}</td>
+			<td>{{this.university_name}}</td>
+			<td style=" border: 0.5px solid black;padding: 3px;">{{this.marks_obtained}}</td>
+		</tr>
+		{{/each}}
+	</tbody>
+</table>
+
+<p style="text-align: center; padding-bottom: 2px; font-size: 9pt;">Page 1 of 2</p>
+
+<div style="page-break-after: always"><span style="display: none;">&nbsp;</span></div>
+
+<table style="width: 100%;font-family: SansSerif; border-collapse: collapse; border: 0.5px solid black;margin-top:2%;">
+	<tbody>
+		<tr style=" border: 0.5px solid black;">
+			<td style=" border: 0.5px solid black;padding: 3px;white-space:nowrap; font-size: 9pt;"><b>Technical Training &nbsp; &nbsp; &nbsp; &nbsp;</b></td>
+		</tr>
+		<tr style=" border: 0.5px solid black;text-align: center; font-size: 8pt;">
+			<td style=" border: 0.5px solid black;padding: 3px;width:5%">SI.NO.</td>
+			<td>Training Subject</td>
+			<td style=" border: 0.5px solid black;padding: 3px;">Trained Place</td>
+			<td>Duration (From-To)</td>
+			<td style=" border: 0.5px solid black;padding: 3px;">Marks Secured</td>
+		</tr>
+		<tr style=" border: 0.5px solid black;text-align: center; font-size: 8pt;">
+			<td style=" border: 0.5px solid black;padding: 3px;">క్రమసంఖ్య</td>
+			<td>శిక్షణ విషయం</td>
+			<td style=" border: 0.5px solid black;padding: 3px;">శిక్షణ పొందిన ప్రదేశం</td>
+			<td>కాలక్రమానుసారం</td>
+			<td style=" border: 0.5px solid black;padding: 3px;">మార్కులు సాధించారు</td>
+		</tr>
+		<tr style=" border: 0.5px solid black;text-align: center; font-size: 8pt;">
+			<td style=" border: 0.5px solid black;padding: 3px;">&nbsp;</td>
+			<td>&nbsp;</td>
+			<td style=" border: 0.5px solid black;padding: 3px;">&nbsp;</td>
+			<td>&nbsp;</td>
+			<td style=" border: 0.5px solid black;padding: 3px;">&nbsp;</td>
+		</tr>
+		<tr style=" border: 0.5px solid black;text-align: center; font-size: 8pt;">
+			<td style=" border: border;padding: 3px;">&nbsp;</td>
+			<td style=" border: 0.5px solid black;padding: 3px;">&nbsp;</td>
+			<td style=" border: 0.5px solid black;padding: 3px;">&nbsp;</td>
+			<td style=" border: 0.5px solid black;padding: 3px;">&nbsp;</td>
+			<td style=" border: 0.5px solid black;padding: 3px;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+<table style="width: 100%;font-family: SansSerif; border-collapse: collapse; border: 0.5px solid black;margin-top:2%;">
+	<tbody>
+		<tr style=" border: 0.5px solid black;">
+			<td style=" border: 0.5px solid black;padding: 3px;white-space:nowrap; font-size: 9pt;"><b>Languages Known &nbsp; &nbsp; &nbsp; &nbsp;</b></td>
+			<td style=" border: 0.5px solid black;padding: 3px;white-space:nowrap; font-size: 9pt;">భాషలు తెలిసిన &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>
+		</tr>
+		<tr style=" border: 0.5px solid black;text-align: center; font-size: 8pt;">
+			<td style=" border: 0.5px solid black;padding: 3px;width:5%">SI.NO.</td>
+			<td>Language</td>
+			<td style=" border: 0.5px solid black;padding: 3px;">Read/ Write/ Speak</td>
+		</tr>
+		<tr style=" border: 0.5px solid black;text-align: center; font-size: 8pt;">
+			<td style=" border: 0.5px solid black;padding: 3px;">క్రమసంఖ్య</td>
+			<td>భాష</td>
+			<td style=" border: 0.5px solid black;padding: 3px;">చదవడం/ రాయడం/ మాట్లాడడం</td>
+		</tr>
+		{{#each language}}{{#if this.language_1}}
+		<tr style=" border: 0.5px solid black;text-align: center; font-size: 8pt;">
+			<td style="border: 0.5px solid black; padding: 3px;">1</td>
+			<td style="border: 0.5px solid black; padding: 3px;">{{this.language_1}}</td>
+			<td style="border: 0.5px solid black; padding: 3px;">{{this.lang_1_fluent}}</td>
+		</tr>
+		{{/if}}{{#if this.language_2}}
+		<tr style=" border: 0.5px solid black;text-align: center; font-size: 8pt;">
+			<td style="border: 0.5px solid black; padding: 3px;">2</td>
+			<td style="border: 0.5px solid black; padding: 3px;">{{this.language_2}}</td>
+			<td style="border: 0.5px solid black; padding: 3px;">{{this.lang_2_fluent}}</td>
+		</tr>
+		{{/if}}{{#if this.language_3}}
+		<tr style=" border: 0.5px solid black;text-align: center; font-size: 8pt;">
+			<td style="border: 0.5px solid black; padding: 3px;">3</td>
+			<td style="border: 0.5px solid black; padding: 3px;">{{this.language_3}}</td>
+			<td style="border: 0.5px solid black; padding: 3px;">{{this.lang_3_fluent}}</td>
+		</tr>
+		{{/if}}{{#if this.language_4}}
+		<tr style=" border: 0.5px solid black;text-align: center; font-size: 8pt;">
+			<td style="border: 0.5px solid black; padding: 3px;">4</td>
+			<td style="border: 0.5px solid black; padding: 3px;">{{this.language_4}}</td>
+			<td style="border: 0.5px solid black; padding: 3px;">{{this.lang_4_fluent}}</td>
+		</tr>
+		{{/if}}{{#if this.language_5}}
+		<tr style=" border: 0.5px solid black;text-align: center; font-size: 8pt;">
+			<td style="border: 0.5px solid black; padding: 3px;">5</td>
+			<td style="border: 0.5px solid black; padding: 3px;">{{this.language_5}}</td>
+			<td style="border: 0.5px solid black; padding: 3px;">{{this.lang_5_fluent}}</td>
+		</tr>
+		{{/if}}{{/each}}
+	</tbody>
+</table>
+
+<table style="width: 100%;font-family: SansSerif; border-collapse: collapse; border: 0.5px solid black;margin-top:2%;">
+	<tbody>
+		<tr style=" border: 0.5px solid black;">
+			<td colspan="2" style=" border: 0.5px solid black;padding: 3px;white-space:nowrap; font-size: 9pt;"><b>Previous Employment Details &nbsp; &nbsp; &nbsp; &nbsp;</b></td>
+			<td colspan="5" style=" border: 0.5px solid black;padding: 3px;white-space:nowrap; font-size: 9pt;">మునుపటి ఉపాధి వివరాలు &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>
+		</tr>
+		<tr style=" border: 0.5px solid black;text-align: center; font-size: 8pt;">
+			<td style=" border: 0.5px solid black;padding: 3px;width:5%">SI.NO.</td>
+			<td>Company Name</td>
+			<td style=" border: 0.5px solid black;padding: 3px;">Designation</td>
+			<td>Salary Slip</td>
+			<td style=" border: 0.5px solid black;padding: 3px;">Duration</td>
+			<td style="width: 8%;">Salary</td>
+			<td style=" border: 0.5px solid black;padding: 3px;">Reason for Leaving</td>
+		</tr>
+		<tr style=" border: 0.5px solid black;text-align: center; font-size: 8pt;">
+			<td style=" border: 0.5px solid black;padding: 3px;width:5%">క్రమసంఖ్య</td>
+			<td>కంపెనీ పేరు</td>
+			<td style=" border: 0.5px solid black;padding: 3px;">హోదా</td>
+			<td>జీతం స్లిప్</td>
+			<td style=" border: 0.5px solid black;padding: 3px;">వ్యవధి</td>
+			<td>వేతనాలు</td>
+			<td style=" border: 0.5px solid black;padding: 3px;">వెళ్ళినందుకు కారణం</td>
+		</tr>
+		{{#each prev_employers}}
+		<tr style=" border: 0.5px solid black;text-align: center; font-size: 8pt;">
+			<td style=" border: 0.5px solid black;padding: 3px;width:5%">{{index}}</td>
+			<td>{{this.pemplr_name}}</td>
+			<td style=" border: 0.5px solid black;padding: 3px;">{{this.pemplr_desg}}</td>
+			<td>&nbsp;</td>
+			<td style=" border: 0.5px solid black;padding: 3px;">{{this.experience}}</td>
+			<td>{{this.salary_per_annum}}</td>
+			<td style=" border: 0.5px solid black;padding: 3px;">{{this.Reason_for_leaving}}</td>
+		</tr>
+		{{/each}}
+	</tbody>
+</table>
+&nbsp;
+
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%;font-size: 8pt;">
+	<tbody>
+		<tr>
+			<td style="width: 50%;height: 20px;">Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; పేరు</td>
+			<td>Relationship &nbsp;&nbsp;&nbsp; సంబంధం</td>
+		</tr>
+		<tr>
+			<td style="height: 20px;">Address &nbsp;&nbsp;&nbsp; చిరునామా</td>
+			<td>Contact no. &nbsp;&nbsp;&nbsp; సంప్రదింపు సంఖ్య</td>
+		</tr>
+		<tr>
+			<td style="height: 20px;"><b>If already covered under ESI &amp; PF</b></td>
+			<td><b>OLD PF No.</b> &nbsp;&nbsp;&nbsp; P.F నంబర్ <span style="padding-left: 70px;"> {{prev_pf}}</span></td>
+		</tr>
+		<tr>
+			<td style="height: 20px;">ఇప్పటికే కవర్ చేయబడింది PF మరియు ESI</td>
+			<td><b>UAN No.</b> <span style="padding-left: 150px;"> {{prev_uan}}</span></td>
+		</tr>
+	</tbody>
+</table>
+
+<p style="margin-top:1%; display:flex;font-family:Noto Serif Telugu;font-size:8pt;"><b>ESI NO.</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ESI నం &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; {{prev_esi}}</p>
+
+<table style="width: 100%;font-family: SansSerif; border-collapse: collapse; border: 0.5px solid black;margin-top:2px;">
+	<tbody>
+		<tr style=" border: 0.5px solid black;">
+			<td style=" border: 0.5px solid black;padding: 3px;white-space:nowrap; font-size: 9pt;"><b>Any Two Reference &nbsp; &nbsp; &nbsp; &nbsp;</b></td>
+			<td style=" border: 0.5px solid black;padding: 3px;white-space:nowrap; font-size: 9pt;">ఏదైనా రెండు సూచన &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>
+		</tr>
+		<tr style=" border: 0.5px solid black;text-align: center; font-size: 8pt;">
+			<td style=" border: 0.5px solid black;padding: 3px;width:1%">SI.NO.</td>
+			<td style="width: 25%;">Name</td>
+			<td style=" border: 0.5px solid black;padding: 3px;">Address</td>
+			<td style="width: 15%;">Occupation</td>
+		</tr>
+		<tr style=" border: 0.5px solid black;text-align: center; font-size: 8pt;">
+			<td style=" border: 0.5px solid black;padding: 3px;width:5%">క్రమసంఖ్య</td>
+			<td>పేరు</td>
+			<td style=" border: 0.5px solid black;padding: 3px;">చిరునామా</td>
+			<td>వృత్తి</td>
+		</tr>
+		<tr style=" border: 0.5px solid black;text-align: center; font-size: 8pt;">
+			<td style=" border: 0.5px solid black;padding: 3px;width:5%">&nbsp;</td>
+			<td>&nbsp;</td>
+			<td style=" border: 0.5px solid black;padding: 3px;">&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr style=" border: 0.5px solid black;text-align: center; font-size: 8pt;">
+			<td style=" border: 0.5px solid black;padding: 3px;width:5%">&nbsp;</td>
+			<td>&nbsp;</td>
+			<td style=" border: 0.5px solid black;padding: 3px;">&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+<p style="margin-top:5%;font-size:9pt;font-family:Noto Serif Telugu;"><b>Self Declaration</b> &nbsp;&nbsp;&nbsp;&nbsp; స్వీయ ప్రకటన</p>
+
+<p style="margin-top:3%; font-size:9pt;font-family:Noto Serif Telugu;">నేను భారత న్యాయస్థానంలో నేరస్థుడిగా ప్రకటించబడలేదు మరియు నేను క్రమశిక్షణా కారణాలపై కంపెనీ సేవల నుండి తొలగించబడలేదు. వాస్తవాలకు సంబంధించిన సమాచారాన్ని నేను చెప్పాను అబద్ధమని రుజువైతే, నిర్వహణ ఎటువంటి తదుపరి నోటీసు లేదా పరిహారం లేకుండా నన్ను సేవల నుండి తొలగించవచ్చు</p>
+
+<div style="margin-top:8%; display:flex;font-family:Noto Serif Telugu;font-size:8pt;">
+<p style="margin-right:60%;font-size:8pt;">Date&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; తేదీ</p>
+
+<p style="font-size:8pt; font-family: Noto Serif Telugu;"><b>Signature</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; సంతకం</p>
+</div>
+
+<p style="font-family:Noto Serif Telugu; font-size:8pt;margin-top:-1.5%;font-size:9pt;">Place&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; స్థలం</p>
+
+<p style="font-family:Noto Serif Telugu; font-size:8pt;margin-top:2%;font-size:8pt;"><b>Date of Joining</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{doj}}</p>
+
+<p style="font-family:Noto Serif Telugu; font-size:8pt;margin-top:-1.5%;font-size:8pt;">చేరిన తేదీ</p>
+
+<div style="margin-top:5%; display:flex; justify-content: space-between;">
+<p style="font-family:Noto Serif Telugu; font-size:8pt;margin-top:2%;">Authorized Signatory<br />
+మానవ వనరుల అధికారి</p>
+
+<p style="font-family:Noto Serif Telugu; font-size:8pt;margin-top:2%;margin-right: 15%;">Proposed Salary<br />
+వేతనాలు నిర్ణయించబడ్డాయి</p>
+</div>
+
+<p style="text-align: center; padding-bottom: 2px; font-size: 9pt;">Page 2 of 2</p>
+
+<div style="page-break-after: always"><span style="display: none;">&nbsp;</span></div>
